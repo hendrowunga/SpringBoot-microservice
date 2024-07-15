@@ -1,0 +1,23 @@
+eureka:
+  client:
+    register-with-eureka: false
+server:
+  port: 8222
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: employee
+          uri: http://localhost:8090
+          predicates:
+            - Path=/api/v1/employee/**
+        - id: company
+          uri: http://localhost:8070
+          predicates:
+            - Path=/api/v1/company/**
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG

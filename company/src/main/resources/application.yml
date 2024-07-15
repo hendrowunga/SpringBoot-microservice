@@ -1,23 +1,5 @@
-
-
-server:
-  port: 8070
 spring:
   application:
     name: company
   config:
     import: optional:configserver:http://localhost:8888
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/company
-    username: postgres
-    password: postgres
-  jpa:
-    hibernate:
-      ddl-auto: create
-      database: postgresql
-      database-platform: org.hibernate.dialect.PostgreSQLDialect
-
-application:
-  config:
-    employee-url: http://localhost:8090/api/v1/employee
