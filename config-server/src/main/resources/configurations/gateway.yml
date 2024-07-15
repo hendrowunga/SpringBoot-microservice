@@ -17,6 +17,10 @@ spring:
           uri: http://localhost:8070
           predicates:
             - Path=/api/v1/company/**
+management:
+  tracing:
+    sampling:
+      probability: 1.0
 
 logging:
   level:

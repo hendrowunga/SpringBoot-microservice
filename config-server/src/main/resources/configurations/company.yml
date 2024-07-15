@@ -24,3 +24,7 @@ spring:
 application:
   config:
     employee-url: http://localhost:8222/api/v1/employee
+management:
+  tracing:
+    sampling:
+      probability: 1.0
