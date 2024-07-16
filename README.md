@@ -11,10 +11,23 @@ Repositori ini memuat modifikasi dari diagram, proyek demonstrasi yang menampilk
    - gateway: Gerbang API untuk merutekan permintaan ke layanan mikro yang sesuai.
    - docker-compose.yml: File Docker Compose untuk menjalankan aplikasi dalam kontainer.
 
+## Getting Started
+    Pastikan Anda telah menginstal perangkat lunak berikut pada sistem Anda sebelum melanjutkan:
 
+    Java Development Kit (JDK) 17 atau yang lebih baru
+    Maven
+    Docker (opsional, untuk kontainerisasi)
+    Instalasi
+    Kloning repositori:
+    git clone git remote add origin https://github.com/hendrowunga/Micro-Service-SpringBoot.git
 
+## Contact
+   [Email] : hendrowunga073gmail.com
 
-
+## Visit
+   - OpenFeign (https://github.com/OpenFeign/feign)
+   -  Zipkin (https://zipkin.io/)
+   -  Spring Cloud Netflix (https://spring.io/projects/spring-cloud-netflix)
 
 
 
